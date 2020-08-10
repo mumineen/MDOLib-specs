@@ -13,6 +13,5 @@ Pod::Spec.new do |s|
     s.source       = { :git => "https://github.com/tfa2773/MDOLib-Apple.git", :tag => "#{s.version}" }
     s.vendored_frameworks = "MDOLib.xcframework"
     s.platform = :ios
-    s.swift_version = "4.2"
     s.ios.deployment_target  = '12.0'   
 end
