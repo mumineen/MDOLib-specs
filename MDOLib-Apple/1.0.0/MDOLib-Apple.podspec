@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
                   LICENSE
                 }
     s.author             = { "Mumineen.org" => "help@mumineen.org" }
-    s.source       = { :git => "https://github.com/tfa2773/MDOLib-Apple.git", :tag => "#{s.version}" }
+    s.source       = { :git => "https://github.com/mumineen/MDOLib-Apple.git", :tag => "#{s.version}" }
     s.vendored_frameworks = "MDOLib.xcframework"
     s.platform = :ios
     s.ios.deployment_target  = '12.0'   
