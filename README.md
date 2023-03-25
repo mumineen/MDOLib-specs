@@ -45,6 +45,17 @@ After this, it should be possible to call methods in the library.  All methods i
  * @return NSDictionary containing NSDates
  */
 + (NSDictionary*) roundedSalaatArrayWithExtraTimesForDate: (NSDate*) dateIn lat: (double) latIn lon: (double) lonIn altitude: (double) altit withPreviousNL: (bool) withPrevNL withNextSihori: (bool) withNextSihori;
+
+/**
+ * getNextTimeForDate
+ * Returns the next upcoming salaat time for the date.
+ * @param dateIn - the desired NSDate
+ * @param latIn - latitude component of the location
+ * @param lonIn - longitude component of the location
+ * @param altit - Altitude in meters at the desired location.
+ * @return Dictionary containing the key-value pair for the upcoming time.
+ */
++ (NSDictionary*) getNextTimeForDate: (NSDate*) dateIn lat: (double) latIn lon: (double) lonIn altitude: (double) altit;
     
 /**
  * dateIslamicToGregorian
